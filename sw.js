@@ -2,7 +2,14 @@
 var cacheName = 'iteliosPWATOTEM-v1';
 
 var appShellFiles = [
-  '/index.html',
+
+  'js/',
+  'js/interact.min.js',
+  'js/jquery.min.js',
+  'js/app.js',
+  'style/',
+  'style/style.css',
+  'index.html',
 
 ];
 
