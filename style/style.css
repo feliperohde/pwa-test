@@ -365,11 +365,27 @@
 
             top: 95px;
         }
+
+        .builder .toolbox .blocks:nth-child(8),
+        .builder .toolbox .blocks:nth-child(4) {
+            position: absolute;
+
+            top: 190px;
+        }
+
         .builder .toolbox .blocks:nth-child(2) {
             right: 40px;
         }
 
         .builder .toolbox .blocks:nth-child(6) {
+            left: 40px;
+        }
+
+        .builder .toolbox .blocks:nth-child(4) {
+            right: 40px;
+        }
+
+        .builder .toolbox .blocks:nth-child(8) {
             left: 40px;
         }
 
