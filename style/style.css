@@ -142,7 +142,7 @@
            ========================================================================== */
 
         body {
-            background: #5a1e00;
+            background: #f1f1f1;
             margin: 0;
 
             position: absolute;
@@ -167,6 +167,9 @@
             z-index: 2;
 
             transform: translateZ(0);
+
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,240,230,1) 100%);
         }
 
         .builder .canvas {
@@ -205,6 +208,8 @@
             border-radius: 50%;
             border: none;
             transform: translate(-50%, -50%);
+
+            box-shadow: 0 0 0 50px #ff6600;
         }
 
         .builder .canvas .frame .dropzone {
@@ -333,7 +338,7 @@
         }
         .builder .toolbox {
             position: absolute;
-            top: 0;
+            top: 16px;
             left: 0;
             z-index: 1000;
             background: none;
