@@ -16,6 +16,11 @@ var appShellFiles = [
   'images/icons/icon-384.png',
   'images/icons/icon-512.png',
 
+  'fonts/icomoon.svg',
+  'fonts/icomoon.ttf',
+  'fonts/icomoon.woff',
+  'fonts/icomoon.woff2',
+
   'js/interact.min.js',
   'js/jquery.min.js',
   'js/app.js',
