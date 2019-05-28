@@ -56,7 +56,7 @@
     }
   ],
   "splash_pages": null,
-  "start_url": "/templates/index.html",
+  "start_url": "/index.html",
     "display": "fullscreen",
     "theme_color": "#ff6600",
     "background_color": "#f1f1f1"
