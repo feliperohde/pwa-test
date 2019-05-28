@@ -355,12 +355,68 @@
 
         }
 
+        .builder .toolbox .block.sfcc:before {
+            content: "\e90c";
+        }
+        .builder .toolbox .block.vtex:before {
+            content: "\e909";
+        }
+        .builder .toolbox .block.in-store:before {
+            content: "\e904";
+        }
+        .builder .toolbox .block.crm:before {
+            content: "\e90a";
+        }
+        .builder .toolbox .block.erp:before {
+            content: "\e906";
+        }
+        .builder .toolbox .block.ecommerce:before {
+            content: "\e908";
+        }
+        .builder .toolbox .block.performance:before {
+            content: "\e907";
+        }
+        .builder .toolbox .block.db:before {
+            content: "\e901";
+        }
+        .builder .toolbox .block.app:before {
+            content: "\e900";
+        }
+        .builder .toolbox .block.engajamento:before {
+            content: "\e905";
+        }
+        .builder .toolbox .block.others:before {
+            content: "\e902";
+        }
+        .builder .toolbox .block.magento:before {
+            content: "\e903";
+        }
+        .builder .toolbox .block.drupal:before {
+            content: "\e90b";
+        }
+
+        .builder .toolbox .block:before {
+            position: absolute;
+            font-family: 'icomoon' !important;
+
+            font-size: 78px;
+            color: white;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+        }
+
         .builder .toolbox .block {
-            width: 80px;
-            height: 80px;
+            width: 90px;
+            height: 90px;
             background: #ff771c;
 
             border-radius: 50%;
+
+            position: relative;
         }
 
         .loader-wrap {
