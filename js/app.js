@@ -21,6 +21,14 @@ function preventBehavior(e) {
             $('.canvas').on('touchmove, touchstart, touchend', function(ev) {
                 ev.preventDefault();
             });
+
+            $('.logo-area').on('click', function(ev) {
+                ev.preventDefault();
+
+                // alert(1)
+
+                $('.blocks .block').removeAttr('style').removeAttr('data-y').removeAttr("data-x");
+            });
         });
 
         var startPos = null;
