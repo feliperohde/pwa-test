@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Itelios Totem</title>
+    <meta name="description" content="Itelios VTEXday totem">
+    <meta name="author" content="Itelios">
+    <meta name="theme-color" content="#ff6600">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta property="og:image" content="images/icons/icon-512.png">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/interact.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('/sw.js')
+                   .then(function() {alert("Service Worker Registered"); });
+        }
+    </script>
+
+
+</head>
+<body>
+
+    <audio id="audioID" autoplay>
+      <source src="/audio/1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio>
+        <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/265602/tink.wav">
+    </audio>
+
+    <div class="builder">
+        <div class="canvas">
+            <div  class="frame">
+                <div class="centrar-area">
+                    <div class="logo-area">
+                        <img src="/images/logo_itelios@2x.png" alt="">
+                    </div>
+                </div>
+
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+                <div class="dropzone"></div>
+            </div>
+        </div>
+
+        <div onclick="playclip();" class="toolbox">
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+             <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+             <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+
+            <div class="blocks">
+                <div class="block"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loader-wrap">
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- filters -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="shadowed-goo">
+
+              <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+              <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+              <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+              <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+              <feComposite in2="shadow" in="goo" result="goo" />
+              <feComposite in2="goo" in="SourceGraphic" result="mix" />
+          </filter>
+          <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+              <feComposite in2="goo" in="SourceGraphic" result="mix" />
+          </filter>
+        </defs>
+    </svg>
+
+</body>
+</html>
