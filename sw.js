@@ -17,12 +17,13 @@ var appShellFiles = [
   '/images/icons/icon-192.png',
   '/images/icons/icon-384.png',
   '/images/icons/icon-512.png',
-  '/index.html',
   '/js/',
   '/js/interact.min.js',
   '/js/jquery.min.js',
+  '/js/app.js',
   '/style/',
   '/style/style.css',
+  '/index.html',
 
 ];
 
