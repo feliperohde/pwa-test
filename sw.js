@@ -1,5 +1,5 @@
 // Files to cache
-var cacheName = 'iteliosPWATOTEM-v2';
+var cacheName = 'iteliosPWATOTEM-v3';
 
 var appShellFiles = [
   'audio/1.mp3',

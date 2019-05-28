@@ -453,7 +453,7 @@
             content: "performance";
         }
         .builder .toolbox .block.db:after {
-            content: "db";
+            content: "dados";
         }
         .builder .toolbox .block.app:after {
             content: "app";
@@ -462,7 +462,7 @@
             content: "engajamento";
         }
         .builder .toolbox .block.others:after {
-            content: "others";
+            content: "outros";
         }
         .builder .toolbox .block.magento:after {
             content: "magento";
