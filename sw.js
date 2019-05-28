@@ -23,7 +23,7 @@ var appShellFiles = [
   '/js/app.js',
   '/style/',
   '/style/style.css',
-  '/index.html',
+  'index.html',
 
 ];
 
