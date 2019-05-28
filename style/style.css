@@ -334,7 +334,7 @@
 
         .builder .toolbox,
         .builder .canvas {
-            /*filter: url(#goo);*/
+            filter: url(#goo);
         }
         .builder .toolbox {
             position: absolute;
