@@ -177,7 +177,7 @@
             position: relative;
             top: 122px;
 
-            transform: scale(.85);
+            /*transform: scale(.85);*/
         }
 
         .builder .canvas .frame .centrar-area {
@@ -209,7 +209,7 @@
             border: none;
             transform: translate(-50%, -50%);
 
-            box-shadow: 0 0 0 50px #ff6600;
+            box-shadow: 0 0 0 60px #ff6600;
         }
 
         .builder .canvas .frame .dropzone {
@@ -359,6 +359,21 @@
             display: inline-block;
 
         }
+        .builder .toolbox .blocks:nth-child(2),
+        .builder .toolbox .blocks:nth-child(6) {
+            position: absolute;
+
+            top: 95px;
+        }
+        .builder .toolbox .blocks:nth-child(2) {
+            right: 40px;
+        }
+
+        .builder .toolbox .blocks:nth-child(6) {
+            left: 40px;
+        }
+
+
 
         .builder .toolbox .block.sfcc:before {
             content: "\e90c";
@@ -400,6 +415,46 @@
             content: "\e90b";
         }
 
+        .builder .toolbox .block.sfcc:after {
+            content: "Salesforce";
+        }
+        .builder .toolbox .block.vtex:after {
+            content: "vtex";
+        }
+        .builder .toolbox .block.in-store:after {
+            content: "in store";
+        }
+        .builder .toolbox .block.crm:after {
+            content: "crm";
+        }
+        .builder .toolbox .block.erp:after {
+            content: "erp";
+        }
+        .builder .toolbox .block.ecommerce:after {
+            content: "e-commerce";
+        }
+        .builder .toolbox .block.performance:after {
+            content: "performance";
+        }
+        .builder .toolbox .block.db:after {
+            content: "db";
+        }
+        .builder .toolbox .block.app:after {
+            content: "app";
+        }
+        .builder .toolbox .block.engajamento:after {
+            content: "engajamento";
+        }
+        .builder .toolbox .block.others:after {
+            content: "others";
+        }
+        .builder .toolbox .block.magento:after {
+            content: "magento";
+        }
+        .builder .toolbox .block.drupal:after {
+            content: "drupal";
+        }
+
         .builder .toolbox .block:before {
             position: absolute;
             font-family: 'icomoon' !important;
@@ -410,8 +465,28 @@
             top: 50%;
             left: 50%;
 
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -60%);
 
+        }
+
+        .builder .toolbox .block span {
+            display: none;
+        }
+        .builder .toolbox .block:after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            background: #ff6600;
+            padding: 4px;
+
+            font-size: 12px;
+            text-transform: uppercase;
+            color: white;
+            font-family: "Tahoma", sans-serif;
+
+            border-radius: 50px;
         }
 
         .builder .toolbox .block {
@@ -419,7 +494,7 @@
             height: 90px;
             background: #ff771c;
 
-            border-radius: 50%;
+            border-radius: 12px;
 
             position: relative;
         }
