@@ -2,9 +2,7 @@
 var cacheName = 'iteliosPWATOTEM-v1';
 
 var appShellFiles = [
-  '/audio/',
-  '/audio/1.mp3',
-  '/images/',
+
 
 
 ];
