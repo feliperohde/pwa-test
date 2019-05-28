@@ -27,7 +27,17 @@ function preventBehavior(e) {
 
                 // alert(1)
 
-                $('.blocks .block').removeAttr('style').removeAttr('data-y').removeAttr("data-x");
+                $('.blocks .block').css("transition", "all 300ms ease");
+
+                setTimeout(function() {
+                    $('.blocks .block').css('transform', "translate(0,0)").removeAttr('data-y').removeAttr("data-x");
+
+                }, 50);
+
+
+                setTimeout(function() {
+                    $('.blocks .block').css("transition", "none");
+                },1200);
             });
         });
 
