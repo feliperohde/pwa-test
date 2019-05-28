@@ -2,7 +2,6 @@
 var cacheName = 'iteliosPWATOTEM-v1';
 
 var appShellFiles = [
-  'audio/1.mp3',
   'images/logo_itelios@2x.png',
   'images/icons/',
   'images/icons/favicon.ico',
