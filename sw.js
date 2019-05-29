@@ -1,5 +1,5 @@
 // Files to cache
-var cacheName = 'iteliosPWATOTEM-v3';
+var cacheName = 'iteliosPWATOTEM-v4';
 
 var appShellFiles = [
   'audio/1.mp3',
@@ -15,11 +15,6 @@ var appShellFiles = [
   'images/icons/icon-192.png',
   'images/icons/icon-384.png',
   'images/icons/icon-512.png',
-
-  'fonts/icomoon.svg',
-  'fonts/icomoon.ttf',
-  'fonts/icomoon.woff',
-  'fonts/icomoon.woff2',
 
   'js/interact.min.js',
   'js/jquery.min.js',
